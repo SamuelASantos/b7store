@@ -1,0 +1,25 @@
+.header-warning {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 16px 0;
+}
+
+.header-warning span {
+    font-weight: bold;
+}
+
+.header-warning .desktop {
+    display: none;
+}
+
+
+@media (width > 714px) {
+    .header-warning .desktop {
+        display: block;
+    }
+
+    .header-warning .mobile {
+        display: none;
+    }
+}
